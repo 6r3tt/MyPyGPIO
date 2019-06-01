@@ -30,7 +30,7 @@ def green_led(g):
 
 # Yellow light duration
 def yellow_led(y):
-    print '\n[*] Yellow pin is lit fam\n'
+    print(Fore.YELLOW + '\n[*] Yellow pin is lit fam\n')
     GPIO.output(yellow, GPIO.HIGH)
     time.sleep(8)
     GPIO.output(yellow, GPIO.LOW)
@@ -40,7 +40,7 @@ def yellow_led(y):
 
 # Red light duration
 def red_led(r):
-    print '\n[*] Red pin is lit fam\n'
+    print(Fore.RED + '\n[*] Red pin is lit fam\n')
     GPIO.output(red, GPIO.HIGH)
     time.sleep(120)
     GPIO.output(red, GPIO.LOW)
