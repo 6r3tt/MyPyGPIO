@@ -58,7 +58,8 @@ def main():
     print '#######################\n'
 
     # Loop for a really long time.
-    for i in range(0, 999999):
+    #for i in range(0, 999999):
+    while True:
         green_led(red)
         yellow_led(yellow)
         red_led(green)
